@@ -15,4 +15,5 @@ var GitCmd = &cobra.Command{
 
 func init() {
     GitCmd.AddCommand(auditDirCmd)
+    GitCmd.AddCommand(conventionalCommitCmd)
 }
